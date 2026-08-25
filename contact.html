@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — Creativhabits</title>
+<meta name="description" content="Get in touch with Creativhabits, a Nairobi-based creative studio. Based at Applewood, Adams Arcade." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__mark">
+    <svg class="preloader__reg reg-mark" viewBox="0 0 34 34" width="34" height="34">
+      <circle cx="17" cy="17" r="9"/><circle class="dot" cx="17" cy="17" r="1.3"/>
+      <line x1="17" y1="0" x2="17" y2="5"/><line x1="17" y1="29" x2="17" y2="34"/>
+      <line x1="0" y1="17" x2="5" y2="17"/><line x1="29" y1="17" x2="34" y2="17"/>
+    </svg>
+    <span class="preloader__word">creativhabits</span>
+  </div>
+  <div class="preloader__rule"></div>
+</div>
+
+<nav class="nav">
+  <a href="index.html" class="brand-mark"><i>creativ</i>habits</a>
+  <ul class="nav__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html" aria-current="page"><span class="nav-reg-dot"></span>Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav__cta"><span>Start a project</span></a>
+  <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span></button>
+</nav>
+
+<div class="menu-overlay">
+  <ul class="menu-overlay__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="menu-overlay__meta mono-label">Nairobi, Kenya — marcia@creativhabit.com</div>
+</div>
+
+<main>
+  <header class="section" style="padding-top:calc(var(--sp-8) + var(--sp-2)); padding-bottom:var(--sp-4);">
+    <div class="container">
+      <p class="eyebrow reveal">Contact</p>
+      <h1 class="section-title reveal" style="margin-top:1rem; font-size:var(--fs-h2);">Let's talk.</h1>
+      <p class="lead reveal" style="margin-top:var(--sp-3);">
+        Call, email, or send a message below — whichever's easiest. We look forward to hearing from you.
+      </p>
+    </div>
+  </header>
+
+  <section style="padding-top:var(--sp-4);">
+    <div class="container grid-2" style="align-items:start;">
+      <div>
+        <p class="eyebrow reveal">Send a message</p>
+        <form action="mailto:marcia@creativhabit.com" method="get" style="margin-top:var(--sp-4);">
+          <div class="field reveal">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="field reveal">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="field reveal">
+            <label for="body">Message</label>
+            <textarea id="body" name="body" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary reveal">
+            <span class="btn__arrow">↗</span>
+            Send message
+          </button>
+        </form>
+      </div>
+
+      <div class="contact-info reveal">
+        <p class="eyebrow">Studio details</p>
+        <dl style="margin-top:var(--sp-3);">
+          <dt>Phone</dt>
+          <dd><a href="tel:+254711426469">+254 711 426 469</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:marcia@creativhabit.com">marcia@creativhabit.com</a></dd>
+          <dt>Studio</dt>
+          <dd>Applewood, Adams Arcade — 11th Floor, Nairobi</dd>
+        </dl>
+        <hr class="rule" style="margin:var(--sp-4) 0;" />
+        <p class="eyebrow">Elsewhere</p>
+        <div class="footer__links" style="margin-top:var(--sp-2);">
+          <a href="https://www.linkedin.com/in/marciawachira/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.behance.net/marcia_wachira" target="_blank" rel="noopener">Behance</a>
+          <span class="mono-label">Instagram</span>
+          <span class="mono-label">Dribbble</span>
+        </div>
+        <svg class="reg-mark" viewBox="0 0 30 30" width="30" height="30" style="position:absolute; right:var(--sp-4); bottom:var(--sp-4); color:var(--mark);"><circle cx="15" cy="15" r="8"/><circle class="dot" cx="15" cy="15" r="1.2"/><line x1="15" y1="0" x2="15" y2="4"/><line x1="15" y1="26" x2="15" y2="30"/><line x1="0" y1="15" x2="4" y2="15"/><line x1="26" y1="15" x2="30" y2="15"/></svg>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="brand-mark"><i>creativ</i>habits</div>
+        <p class="lead" style="margin-top:1rem;">Nairobi-based studio for branding, creative concepts, and digital &amp; social — led by Marcia Wachira.</p>
+      </div>
+      <div>
+        <div class="mono-label">Studio</div>
+        <div class="footer__links">
+          <a href="index.html">Home</a><a href="about.html">About</a><a href="portfolio.html">Portfolio</a><a href="services.html">Services</a><a href="contact.html">Contact</a>
+        </div>
+        <div class="mono-label" style="margin-top:2rem;">Elsewhere</div>
+        <div class="footer__links">
+          <a href="https://www.linkedin.com/in/marciawachira/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.behance.net/marcia_wachira" target="_blank" rel="noopener">Behance</a>
+          <span class="mono-label">Instagram</span>
+          <span class="mono-label">Dribbble</span>
+        </div>
+      </div>
+    </div>
+    <hr class="rule" style="margin-top:3rem;" />
+    <div class="footer__bottom">
+      <span class="mono-label">© 2026 Creativhabits, Nairobi.</span>
+      <svg class="footer__reg reg-mark" viewBox="0 0 26 26" width="26" height="26"><circle cx="13" cy="13" r="7"/><circle class="dot" cx="13" cy="13" r="1.1"/><line x1="13" y1="0" x2="13" y2="4"/><line x1="13" y1="22" x2="13" y2="26"/><line x1="0" y1="13" x2="4" y2="13"/><line x1="22" y1="13" x2="26" y2="13"/></svg>
+    </div>
+  </div>
+</footer>
+
+<script src="motion.js"></script>
+</body>
+</html>

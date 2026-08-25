@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio — Creativhabits</title>
+<meta name="description" content="Selected branding, campaign, and digital work from Creativhabits, a Nairobi-based creative studio." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__mark">
+    <svg class="preloader__reg reg-mark" viewBox="0 0 34 34" width="34" height="34">
+      <circle cx="17" cy="17" r="9"/><circle class="dot" cx="17" cy="17" r="1.3"/>
+      <line x1="17" y1="0" x2="17" y2="5"/><line x1="17" y1="29" x2="17" y2="34"/>
+      <line x1="0" y1="17" x2="5" y2="17"/><line x1="29" y1="17" x2="34" y2="17"/>
+    </svg>
+    <span class="preloader__word">creativhabits</span>
+  </div>
+  <div class="preloader__rule"></div>
+</div>
+
+<nav class="nav">
+  <a href="index.html" class="brand-mark"><i>creativ</i>habits</a>
+  <ul class="nav__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="portfolio.html" aria-current="page"><span class="nav-reg-dot"></span>Portfolio</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav__cta"><span>Start a project</span></a>
+  <button class="nav__toggle" aria-label="Toggle menu"><span></span><span></span></button>
+</nav>
+
+<div class="menu-overlay">
+  <ul class="menu-overlay__links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="menu-overlay__meta mono-label">Nairobi, Kenya — marcia@creativhabit.com</div>
+</div>
+
+<main>
+  <header class="section" style="padding-top:calc(var(--sp-8) + var(--sp-2)); padding-bottom:var(--sp-4);">
+    <div class="container">
+      <p class="eyebrow reveal">Selected work</p>
+      <h1 class="section-title reveal" style="margin-top:1rem; font-size:var(--fs-hero); max-width:18ch;">A working archive.</h1>
+      <p class="lead reveal" style="margin-top:var(--sp-3);">
+        Branding, campaign, and layout work. Filter by discipline, or click any piece for a closer
+        look — a couple are named below; the rest are grouped honestly by category while we get the
+        full case-study write-ups online.
+      </p>
+      <div class="p-filters reveal" style="margin-top:var(--sp-5);">
+        <button class="p-filter" data-filter="all" aria-pressed="true">All work</button>
+        <button class="p-filter" data-filter="brd" aria-pressed="false">Branding &amp; identity</button>
+        <button class="p-filter" data-filter="con" aria-pressed="false">Creative concepts</button>
+        <button class="p-filter" data-filter="dig" aria-pressed="false">Digital &amp; social</button>
+      </div>
+    </div>
+  </header>
+
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="p-grid">
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Advertising campaign"
+             data-cat="brd" data-cat-class="cat-brd" data-cat-label="Advertising" data-title="Advertising campaign"
+             data-desc="An advertising campaign layout designed to hold attention without shouting for it.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/65.jpg" alt="Advertising campaign design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Advertising campaign</h3><span class="badge cat-brd">Advertising</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Advertising campaign, alternate layout"
+             data-cat="brd" data-cat-class="cat-brd" data-cat-label="Advertising" data-title="Advertising campaign — alternate layout"
+             data-desc="A second pass on the same advertising campaign — same voice, a different placement.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/65b.jpg" alt="Advertising campaign design, alternate layout" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Advertising campaign</h3><span class="badge cat-brd">Advertising</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Identity system"
+             data-cat="brd" data-cat-class="cat-brd" data-cat-label="Branding &amp; identity" data-title="Identity system"
+             data-desc="A brand identity system — logotype, colour, and the supporting marks built to carry it consistently.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/53.jpg" alt="Branding and identity work" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Identity system</h3><span class="badge cat-brd">Branding &amp; identity</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Concept development"
+             data-cat="con" data-cat-class="cat-con" data-cat-label="Creative concepts" data-title="Concept development"
+             data-desc="A creative concept built to carry one message clearly, from the first idea through to the finished visual.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/55.jpg" alt="Creative concept design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Concept development</h3><span class="badge cat-con">Creative concepts</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Social content design"
+             data-cat="dig" data-cat-class="cat-dig" data-cat-label="Digital &amp; social" data-title="Social content design"
+             data-desc="Design built for the feed — sized, paced, and structured for how people actually scroll.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/56b.jpg" alt="Digital and social design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Social content design</h3><span class="badge cat-dig">Digital &amp; social</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Brand mark and palette"
+             data-cat="brd" data-cat-class="cat-brd" data-cat-label="Branding &amp; identity" data-title="Brand mark &amp; palette"
+             data-desc="Identity work built around a clear position — mark, palette, and the rules that keep it consistent.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/58.jpg" alt="Branding and identity work" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Brand mark &amp; palette</h3><span class="badge cat-brd">Branding &amp; identity</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Reports and research layout"
+             data-cat="con" data-cat-class="cat-con" data-cat-label="Editorial layout" data-title="Reports &amp; research layout"
+             data-desc="A research report laid out for readability — clear hierarchy, generous margins, and pacing that respects the reader.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/59.jpg" alt="Reports and research layout" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Reports &amp; research layout</h3><span class="badge cat-con">Editorial layout</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Campaign concept"
+             data-cat="con" data-cat-class="cat-con" data-cat-label="Creative concepts" data-title="Campaign concept"
+             data-desc="Concept work developed to capture a brand's personality — distinct, not borrowed from somewhere else.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/42.jpg" alt="Creative concept design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Campaign concept</h3><span class="badge cat-con">Creative concepts</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Digital campaign"
+             data-cat="dig" data-cat-class="cat-dig" data-cat-label="Digital &amp; social" data-title="Digital campaign"
+             data-desc="Digital and social content designed to connect with an audience without shouting for attention.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/40.jpg" alt="Digital and social design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Digital campaign</h3><span class="badge cat-dig">Digital &amp; social</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Visual identity"
+             data-cat="brd" data-cat-class="cat-brd" data-cat-label="Branding &amp; identity" data-title="Visual identity"
+             data-desc="A visual identity developed from the brand's own story, not a template with a new logo dropped in.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/41.jpg" alt="Branding and identity work" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Visual identity</h3><span class="badge cat-brd">Branding &amp; identity</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Idea to visual"
+             data-cat="con" data-cat-class="cat-con" data-cat-label="Creative concepts" data-title="Idea to visual"
+             data-desc="An idea developed with the audience in mind first, then given a considered visual form.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/44.jpg" alt="Creative concept design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Idea to visual</h3><span class="badge cat-con">Creative concepts</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Content for the feed"
+             data-cat="dig" data-cat-class="cat-dig" data-cat-label="Digital &amp; social" data-title="Content for the feed"
+             data-desc="Content built for a platform's actual rhythm, not just resized from a print layout.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/37.jpg" alt="Digital and social design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Content for the feed</h3><span class="badge cat-dig">Digital &amp; social</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Logo and brand marks"
+             data-cat="brd" data-cat-class="cat-brd" data-cat-label="Branding &amp; identity" data-title="Logo &amp; brand marks"
+             data-desc="Brand mark and colour system, designed to hold up from a business card to a billboard.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/site-img48.png" alt="Branding and identity work" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Logo &amp; brand marks</h3><span class="badge cat-brd">Branding &amp; identity</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Concept and execution"
+             data-cat="con" data-cat-class="cat-con" data-cat-label="Creative concepts" data-title="Concept &amp; execution"
+             data-desc="Concept and execution for a campaign built around a single clear thought.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/p1.jpg" alt="Creative concept design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Concept &amp; execution</h3><span class="badge cat-con">Creative concepts</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Social and digital design"
+             data-cat="dig" data-cat-class="cat-dig" data-cat-label="Digital &amp; social" data-title="Social &amp; digital design"
+             data-desc="Social-first design, considered for engagement rather than just decoration.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/62.jpg" alt="Digital and social design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Social &amp; digital design</h3><span class="badge cat-dig">Digital &amp; social</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Brand identity work"
+             data-cat="brd" data-cat-class="cat-brd" data-cat-label="Branding &amp; identity" data-title="Brand identity work"
+             data-desc="Identity design focused on one clear idea, carried through consistently across every touchpoint.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/60b.jpg" alt="Branding and identity work" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Brand identity work</h3><span class="badge cat-brd">Branding &amp; identity</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Creative direction"
+             data-cat="con" data-cat-class="cat-con" data-cat-label="Creative concepts" data-title="Creative direction"
+             data-desc="Creative direction built to evoke a specific feeling, then carried through consistently.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/23.jpg" alt="Creative concept design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Creative direction</h3><span class="badge cat-con">Creative concepts</span></div>
+        </div>
+
+        <div class="p-tile" tabindex="0" role="button" aria-label="View: Digital content system"
+             data-cat="dig" data-cat-class="cat-dig" data-cat-label="Digital &amp; social" data-title="Digital content system"
+             data-desc="Digital campaign material designed to hold together as a system across several posts.">
+          <div class="p-tile__frame"><div class="img-mask reveal" data-stagger-group="pf"><img src="https://creativhabit.com/wp-content/uploads/2023/06/p9.jpg" alt="Digital and social design" loading="lazy" /></div><span class="p-tile__view">↗</span></div>
+          <div class="p-tile__caption"><h3>Digital content system</h3><span class="badge cat-dig">Digital &amp; social</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2 class="section-title reveal" style="max-width:16ch;">Like what you see?</h2>
+      <a href="contact.html" class="btn btn--primary reveal">
+        Start a project
+        <span class="btn__arrow">↗</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<div class="lightbox">
+  <div class="lightbox__panel">
+    <img src="" alt="" />
+    <div class="lightbox__body">
+      <button class="lightbox__close" aria-label="Close">✕</button>
+      <span class="badge" data-lb-badge></span>
+      <h3 data-lb-title></h3>
+      <p data-lb-desc></p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div>
+        <div class="brand-mark"><i>creativ</i>habits</div>
+        <p class="lead" style="margin-top:1rem;">Nairobi-based studio for branding, creative concepts, and digital &amp; social — led by Marcia Wachira.</p>
+      </div>
+      <div>
+        <div class="mono-label">Studio</div>
+        <div class="footer__links">
+          <a href="index.html">Home</a><a href="about.html">About</a><a href="portfolio.html">Portfolio</a><a href="services.html">Services</a><a href="contact.html">Contact</a>
+        </div>
+        <div class="mono-label" style="margin-top:2rem;">Elsewhere</div>
+        <div class="footer__links">
+          <a href="https://www.linkedin.com/in/marciawachira/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.behance.net/marcia_wachira" target="_blank" rel="noopener">Behance</a>
+          <span class="mono-label">Instagram</span>
+          <span class="mono-label">Dribbble</span>
+        </div>
+      </div>
+    </div>
+    <hr class="rule" style="margin-top:3rem;" />
+    <div class="footer__bottom">
+      <span class="mono-label">© 2026 Creativhabits, Nairobi.</span>
+      <svg class="footer__reg reg-mark" viewBox="0 0 26 26" width="26" height="26"><circle cx="13" cy="13" r="7"/><circle class="dot" cx="13" cy="13" r="1.1"/><line x1="13" y1="0" x2="13" y2="4"/><line x1="13" y1="22" x2="13" y2="26"/><line x1="0" y1="13" x2="4" y2="13"/><line x1="22" y1="13" x2="26" y2="13"/></svg>
+    </div>
+  </div>
+</footer>
+
+<script src="motion.js"></script>
+</body>
+</html>
